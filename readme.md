@@ -12,6 +12,7 @@ The dataset used to train the model was the open source LibriSpeech dataset (htt
 
 each of the short sentences were divided in multiple smaller sentences by sliding window, making multiple 1.6 seconds sentence asociated with it's author.
 This sentences will get grouped in batched of 5 from the same author, and wil be converted to it's spectogram
+![](https://i.ibb.co/x1yTQr2/spectro.png)
 
 ## Model Architecture
 
