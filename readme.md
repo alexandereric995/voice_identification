@@ -19,7 +19,7 @@ This sentences will get grouped in batched of 5 from the same author, and wil be
 
 A base embedding model is defined which given a spectogram returns an 64 values vector which will be the embedding for that spectogram
 
-(image)
+![](https://i.ibb.co/hmHxbQc/architecture.jpg)
 
 ### Average model
 this model will recieve the 5 spectogram batch and by using the base model plus an average layer, will return an averaged embedding for the given group
